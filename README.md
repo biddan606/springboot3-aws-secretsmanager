@@ -31,3 +31,8 @@
    - `IAM Key`에 `SecretsManagerReadWrite` 권한이 부여되어 있어야 합니다.
 5. `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` 환경 변수로 설정
 
+## 참조
+
+- [Spring Boot 3.0 integration with AWS Secrets Manager | Spring Cloud AWS - Visa2Learn Youtube](https://www.youtube.com/watch?v=1j028KYS4ps)
+- [spring-cloud-aws 문서](https://docs.awspring.io/spring-cloud-aws/docs/3.0.0/reference/html/index.html#spring-cloud-aws-secrets-manager)
+- [SpringBoot 에서 AWS Secrets manager를 이용하여 안전하게 데이터베이스를 이용하는 방법 - AWS](https://repost.aws/ko/articles/ARrbXsydIkSAqKLrWhos7GnQ/spring-boot-%EC%97%90%EC%84%9C-aws-secrets-manager%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
