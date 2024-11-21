@@ -1,0 +1,8 @@
+spring:
+    config:
+        import: 'aws-secretsmanager:springboot/mysql/test'
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://${dbHost}:${dbPort}/${dbName}?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+        username: ${dbUsername}
+        password: ${dbPassword}
